@@ -5,6 +5,9 @@ import { fetchCountries } from '../../api';
 
 import styles from './CountryPicker.module.css';
 
+import alanBtn from '@alan-ai/alan-sdk-web';
+const alanKey = '011651b063811743ef33ffefd923eccb2e956eca572e1d8b807a3e2338fdd0dc/stage';
+
 const Countries = ({ handleCountryChange }) => {
   const [countries, setCountries] = useState([]);
 
@@ -16,6 +19,18 @@ const Countries = ({ handleCountryChange }) => {
     fetchAPI();
   }, []);
 
+    useEffect(() => {
+        alanBtn({
+            key: alanKey, 
+            onCommand: ({ command, country }) => {
+                if (command === 'selectCountry') {
+                    handleCountryChange(country);
+                }
+            }
+        })
+        
+    }, []);
+    
   return (
     <FormControl className={styles.formControl}>
       <NativeSelect defaultValue="" onChange={(e) => handleCountryChange(e.target.value)}>
