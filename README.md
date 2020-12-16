@@ -1,6 +1,6 @@
 # React COVID Tracker
 
-### Description
+## Description
 This is a single-page React application that displays current deaths, infections, and recoveries in U.S and 191 other countries. Data are fetched in real-time from a [COVID-19 API](https://github.com/mathdroid/covid-19-api) and a [COVID Tracking API](https://covidtracking.com/data/api). The initial view shows three curves for the current deaths, infections, and recoveries inside the U.S. The user can also use the drop-down menu to look at situations in other countries.
 
 A simple voice assistant is also implemented using [Alan AI platform](https://alan.app/). The app is connected to Alan AI studio and can respond to the following voice commands:
@@ -10,7 +10,7 @@ A simple voice assistant is also implemented using [Alan AI platform](https://al
 
 **Important Note: I only have about 2000 free interactions left so if they are used up it is possible voice control will not work.**
 
-### Displays
+## Displays
 <p align="left">U.S Table</p>
 
 <p align="center">
