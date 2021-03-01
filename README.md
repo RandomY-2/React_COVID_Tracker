@@ -12,7 +12,7 @@ This is a **single-page React application** that displays current deaths, infect
 
 ## Displays
 
-A view of the webpage: https://reverent-shirley-c9bfa3.netlify.app/
+A view of the webpage: https://covid19-react-tracking.netlify.app/
 
 <p align="left">U.S Table</p>
 
