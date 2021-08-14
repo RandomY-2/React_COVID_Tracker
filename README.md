@@ -1,4 +1,4 @@
-# React COVID Tracker
+# React COVID Tracker [API No Longer Works]
 
 ## Description
 This is a **single-page React application** that displays current deaths, infections, and recoveries in U.S and 191 other countries. Data are fetched in real-time from a [COVID-19 API](https://github.com/mathdroid/covid-19-api) and a [COVID Tracking API](https://covidtracking.com/data/api). The initial view shows three curves for the current deaths, infections, and recoveries inside the U.S. The user can also use the drop-down menu to look at situations in other countries. I implemented based on [this tutorial](https://www.youtube.com/watch?v=khJlrj3Y6Ls&t=4212s)
